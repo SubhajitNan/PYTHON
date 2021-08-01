@@ -1,4 +1,4 @@
-'''A Python program which accepts the radius of a circle from the user and computes area.'''
+#A Python program which accepts the radius of a circle from the user and computes area.
 
 from math import pi
 r = float(input ("Input the radius of the circle : "))
@@ -11,7 +11,7 @@ The area of the circle with radius 1.1 is: 3.8013271108436504
 
 **********************************************************************************************************
 
-'''A Python program which accepts the filename from the user and print the extension for that.'''
+#A Python program which accepts the filename from the user and print the extension for that.
 
 filename = input("Input the Filename: ")
 f_extns = filename.split(".")
