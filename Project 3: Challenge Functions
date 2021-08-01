@@ -1,6 +1,6 @@
 # Printing Letters in decreasing order of frequency
 
-W = input('Please enter a string ')
+W = input('Please enter a string: ')
 def most_frequent(string):
     d = dict()
     for key in string:
@@ -11,3 +11,12 @@ def most_frequent(string):
     return d
 
 print (most_frequent(W))
+
+************************************************************
+
+Output:-
+
+Please enter a string: Mississippi
+{'M': 1, 'i': 4, 's': 4, 'p': 2}
+
+************************************************************
