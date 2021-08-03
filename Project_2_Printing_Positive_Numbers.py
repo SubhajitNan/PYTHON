@@ -1,22 +1,17 @@
-#Python program to print positive Numbers in a Range
- 
-# list of numbers
-list1 = [12, -7, 5, 64, -14]
- 
-# iterating each number in the first list
-for num in list1:
-     
-    # checking condition
-    if num >= 0:
-       print(num, end = " ") 
-    
-        
- ******************************************************************
- 
- Output:-
- 
-12 5 64 
+# Python program to print Positive Numbers in a List
 
-12 14 3
+# list of numbers
+list1 = [-10, -21, -4, 45, -66, 93]
+
+# using list comprehension
+pos_nos = [num for num in list1 if num >= 0]
+
+print("Positive numbers in the list: ", *pos_nos)
+      
+******************************************************************
+ 
+Output:-
+ 
+45 93
 
 ********************************************************************
