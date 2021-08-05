@@ -28,7 +28,7 @@ while(num < len(list1)):
       
 ******************************************************************
 
-# Python program to print positive Numbers in a List
+# Python program to print positive Numbers in a List Using For Loop
 
 # list of numbers
 list1 = [11, -21, 0, 45, 66, -93]
